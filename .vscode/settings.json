@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./current_scripts",
+        "./current_scripts"
+    ]
+}

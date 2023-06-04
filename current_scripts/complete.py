@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 import os
-from NEAT_pipeline import start_pipeline
+from current_scripts.NEAT_pipeline import start_pipeline
 import numpy as np
 
 # mlp created in the mlp jupyter notebook
@@ -69,7 +69,3 @@ def predict_malicious(api_key, address):
     normalized = normalize(tested_address, scalar)
     output = predict(normalized, model)
     return output
-
-
-# 0x1954829e72A0477fa146423ee09E9bEF340c80f5
-# 0xb8D76f4BC2518F8eb508bf0Ccca76f8F9DD57a3f

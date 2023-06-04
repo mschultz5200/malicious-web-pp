@@ -1,7 +1,7 @@
 # import packages 
 import sys
 import pandas as pd
-from NEAT_get_transaction import get_transaction_history
+from current_scripts.NEAT_get_transaction import get_transaction_history
 import pickle
 import os
 import numpy as np
