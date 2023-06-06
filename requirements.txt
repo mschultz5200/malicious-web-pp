@@ -1,1 +1,5 @@
 regex==2021.8.28
+pandas==1.2.4
+moralis==0.1.14
+streamlit==1.23.1
+numpy==1.23.0
