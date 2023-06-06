@@ -1,6 +1,7 @@
 import streamlit as st
 from current_scripts.complete import predict_malicious
 import pandas as pd
+import regex as re
 
 def predict(api, wallet):
     if st.session_state.api == '' or st.session_state.wallet == '':
