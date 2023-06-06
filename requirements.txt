@@ -3,4 +3,4 @@ pandas==1.2.4
 moralis==0.1.14
 streamlit==1.23.1
 numpy==1.23.0
-sklearn==0.0.post2
+scikit-learn==1.0
